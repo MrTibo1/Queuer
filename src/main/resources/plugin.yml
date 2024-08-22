@@ -1,0 +1,13 @@
+name: Queuer
+version: '${version}'
+main: be.mrtibo.queuer.Queuer
+api-version: '1.20'
+author: MrTibo
+description: Create queues for your attractions
+commands:
+  queuer:
+    description: Main command for queuer plugin
+    aliases:
+      - queue
+    permission: queuer.admin
+    permission-message: You don't have permission to execute this command

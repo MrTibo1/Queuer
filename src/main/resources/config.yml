@@ -1,0 +1,19 @@
+# Available placeholder: <queuename>
+joinqueue: "<green>You've joined the queue for <queuename>"
+
+# Available placeholder: <queuename>
+leavequeue: "<gray>You've left the queue"
+
+queuefull: "<red>This queue is full!"
+
+# Available placeholder: <queuename>
+alreadyqueued: "<yellow>You are already in the queue for <queuename>"
+
+# Available placeholders: <queuename> <queueposition>
+queueposition: "<gray>Your position in the queue: <white><queueposition>"
+queuepositionauto: "<gray>Queue position: <white><queueposition></white> | Estimated wait: <white><duration></white>"
+
+# The message to show when it's the player's turn
+# Available placeholder: <queuename>
+playerturn: "<green>It's your turn for <queuename>"
+attentionsound: "entity.experience_orb.pickup"
